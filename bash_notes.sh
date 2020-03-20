@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#https://linuxize.com/post/bash-append-to-file/
-#https://linuxize.com/post/bash-functions/#passing-arguments-to-bash-functions
-
-
-
 function n() {
    gfile=$(_get_file)
    local dt=$(date '+%d/%m/%Y %H:%M:%S')
